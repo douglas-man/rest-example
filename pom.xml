@@ -69,7 +69,13 @@
 					<to>
 						<image>docker.io/${docker.image.prefix}/${project.artifactId}</image>
 						<credHelper>pass</credHelper>
+						<tags>
+							<tag>${project.version}</tag>
+						</tags>
 					</to>
+					<container>
+						<mainClass>pl.finsys.example.RestExampleApplication</mainClass>
+					</container>
 				</configuration>
 			</plugin>
 			<plugin>
